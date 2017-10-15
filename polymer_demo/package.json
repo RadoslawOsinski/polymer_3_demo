@@ -1,15 +1,27 @@
 {
-  "name": "cwsfe_website",
+  "name": "polymer_demo",
+  "description": "polymer demo",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Radosław Osiński",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadoslawOsinski/polymer_3_demo.git"
+  },
   "flat": true,
+  "entrypoint": "index.html",
   "dependencies": {
-    "@polymer/polymer": "^3.0.0-pre.1",
+    "@polymer/polymer": "3.0.0-pre.1",
     "@webcomponents/webcomponentsjs": "^1.0.14"
   },
-  "resolutions": {
-    "@webcomponents/webcomponentsjs": "1.0.14"
-  }
+  "bundleDependencies": [
+    "@polymer/polymer",
+    "@webcomponents/webcomponentsjs"
+  ],
+  "bugs": {
+    "url": "https://github.com/RadoslawOsinski/polymer_3_demo/issues"
+  },
+  "homepage": "https://github.com/RadoslawOsinski/polymer_3_demo#readme",
+  "devDependencies": {}
 }
