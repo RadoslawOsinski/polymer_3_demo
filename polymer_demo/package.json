@@ -1,0 +1,15 @@
+{
+  "name": "cwsfe_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Radosław Osiński",
+  "license": "MIT",
+  "flat": true,
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.1",
+    "@webcomponents/webcomponentsjs": "^1.0.14"
+  },
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "1.0.14"
+  }
+}
